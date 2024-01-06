@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+    }
+    header {
+text-align: center;
+padding: 20px;
+background-color: #f2f2f2;
+    }
+
+    h1 {
+color: #333;
+    }
+
+    .gallery {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 16px;
+padding: 16px;
+    }
+
+    .gallery img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease-in-out;
+    }
+
+.gallery img:hover {
+transform: scale(1.1);
+    }
+</style>
+</head>
+<body>
+
+<div style="text-align: center;">
+<h1>Gallery</h1><hr>
+</div>
+<div class="gallery">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_01b9d8e8a3c481e6bee69b891d9d0efe_thumb.jpeg" alt="Image 1">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_1739aa809ae4a8a79376fc25b05f1d10_thumb.jpeg" alt="Image 2">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_cc3e411ea741017d82e118a3b6c01e21_thumb.jpeg" alt="Image 3">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_c75023ac16de5c3669d036719ea787b4_thumb.jpeg" alt="Image 4">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_47e4103add702a14ae8bd2157b0df0b4_thumb.jpeg" alt="Image 5">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_d2e39906a396a2c73a682b67f1288437_thumb.jpeg" alt="Image 6">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_91947bd5cbdef84ed5ddb31eae021e23_thumb.jpeg" alt="Image 7">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_6fe5217b83a313caba3f630293f37a07_thumb.jpeg" alt="Image 8">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_1fcd4ce5662b5923098ce068b0b2a530_thumb.jpeg" alt="Image 9">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_cab4982c70128a75944bb9f7e81dc71a_thumb.jpeg" alt="Image 10">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_172645dcb7a968bebcfe6fd2227b2b01_thumb.jpeg" alt="Image 11">
+<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_804182b7504b8412ffdfacc670b6a500_thumb.jpeg" alt="Image 12">
+</div>
+</body>
+</html>

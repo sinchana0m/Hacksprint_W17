@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.navbar-brand {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+    .navbar-nav .nav-link {
+    font-weight: 600;
+}
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
+.jumbotron {
+    background-image:url("C:\Users\SINCHANA\OneDrive\Desktop\clg 2.jpg"); /* background image */
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    text-align: left;
+    padding: 2rem;
+    color: #08489c;
+}
+.jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.jumbotron p {
+    font-size: 1.2rem;
+    line-height: 1.5;}
+.jumbotron .btn-primary {
+    border-radius: 0.02; /* Remove button border radius */
+}
+.footer {
+    background-color: #191313;
+    color: #fff;
+    padding:0.002%;
+}
